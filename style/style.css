@@ -1,0 +1,77 @@
+
+body {
+  margin: 0;
+}
+
+.navbarFlex {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(0deg, #EEE, #FFF);
+  padding: 15px;
+  justify-content: space-between;
+}
+ .logo > h4 {
+  color: #333;
+  font-family: Ubuntu;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.searchContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+}
+.searchContainer > input {
+  width: 50%;
+}
+.contentFlex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+.repo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 300px;
+  max-width: 1000px;
+  background-image: linear-gradient(0deg, #DDD, #EEE);
+  margin-bottom: 30px;
+  padding: 20px;
+}
+.repoTitle {
+  font-family: Ubuntu;
+  margin-left: 30px;
+}
+.highlight {
+  border: 1px solid #333;
+  background-color: #FFF;
+  border-radius: 5px;
+}
+.fa-lightbulb-o {
+  margin-left: 30px;
+  user-select: none;
+}
+.getDim {
+  color: rgba(100, 100, 100, 0.5);
+}
+.getLit:before {
+  background-image: linear-gradient(0deg, grey 10%, yellow 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: initial;
+}
+.tooltip {
+  position: fixed;
+  padding: 10px;
+  border: 1px solid #333;
+  background: #EEE;
+  opacity: 0;
+}
+.tooltipover {
+  opacity: 1;
+}
